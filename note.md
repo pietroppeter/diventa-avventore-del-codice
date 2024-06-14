@@ -1,8 +1,10 @@
 - decisione: si fa in Italiano [x]
 - struttura iniziale [x]
   - idea dettaglio [x]
-- codice "caldaia" (boilerplate)
-- titolo
+- codice "caldaia" (boilerplate) [x]
+- titolo [x]
+- stile
+  - le basi (e.g. titolo) [x]
 - uno: Advent of Code: cos'è e perché (5')
   - calendario dell'avvento (quello vero)
   - quello del codice, descrizione sintetica
