@@ -1,5 +1,41 @@
 - decisione: si fa in Italiano [x]
 - struttura iniziale [x]
+  - idea dettaglio [x]
+- codice "caldaia" (boilerplate)
+- titolo
+- uno: Advent of Code: cos'è e perché (5')
+  - calendario dell'avvento (quello vero)
+  - quello del codice, descrizione sintetica
+  - chi lo fa
+    - magari parlo di Norvig qui?
+  - perché farlo
+    - e perché NON farlo
+  - i puzzle visti dall'alto prima e seconda parte
+  - i puzzle un poco più nel dettaglio (difficoltà, varietà, parsing)
+  - navigazione del sito
+  - i miei consigli
+- due: storia, curiosità e risorse (10')
+  - breve storia (ed Eric Wastl)
+  - infrastruttura e fallimenti (behind the scenes)
+  - gli aspetti sociali ed i gruppi di riferimento
+    - leaderboard
+    - peter norvig!
+  - visualizzazioni
+  - upping the ante
+  - giornate epiche (intcode)
+  - risorse
+    - chrome extension: https://chromewebstore.google.com/detail/advent-of-code-charts/ipbomkmbokofodhhjpipflmdplipblbe
+    - visualizzazione della difficoltà
+- tre: coinvolgimento personale (3')
+  - ricerca google
+  - chi sono
+  - musica delle balene
+    - (un dicembre una notte nel catanese)
+  - altre risorse (e.g. intervista pythonista)
+- quattro: diventiamo avventori! (2')
+  - creare una leaderboard (chiedere a Salvo! oppure la mia?)
+  - come iniziare da zero
+  - da dove inizio? (proposte di giornate)
 
 struttura:
 - Advent of Code: cos'è e perché (5')
