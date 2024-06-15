@@ -3,8 +3,10 @@
   - idea dettaglio [x]
 - codice "caldaia" (boilerplate) [x]
 - titolo [x]
+- agenda [x]
 - stile
   - le basi (e.g. titolo) [x]
+  - colore giallo stella!
 - uno: Advent of Code: cos'è e perché (5')
   - calendario dell'avvento (quello vero)
   - quello del codice, descrizione sintetica
@@ -50,6 +52,70 @@ bello ma dopo:
 - libreria per presentazione in Italiano (nome "lucidi"?)
 - traduzione di alcune puntate in Italiano
   - con css originale
+
+## eventi
+
+2015
+- Ascii Art: albero di Natale
+- storia orizzontale: ripara la macchina della neve di babbo per un bianco natale
+- primo giorno (non proprio lisp): babbo natale sale e scende i piani (conta parentesi)
+- dal secondo giorno compaiono gli elfi
+
+2016
+- ascii art: città
+- storia: ripara la slitta (stelle rubate dal coniglio pasquale)
+- luogo: Easter Bunny HQ
+- primo giorno (non c'è tempo per un taxi): R2, L3
+
+2017
+- ascii art: scheda computer
+- storia: la stampante e rotta e non si può stampare la lista dei buoni e cattivi
+- luogo: dentro il computer (hai 25 millisecondi)
+- primo giorno (captcha al contrario): somma cifre che matchano
+
+2018
+- ascii art: capello slitta e (boh, arte non si vede tutta)
+- storia: riparare le anomalie temporali prima che condizionino il presente
+- luogo? salti nel passato di 500 anni
+- primo giorno (calibrazione cronale): slati di frequenza (+1\n+1\n-2)
+- io: il mio primo anno (python e nim)
+
+2019
+- ascii art: pianeti sistema solare
+- storia: santa perso ai margini del sistema solare bisogna recuperarlo
+- luogo: spazio
+- primo giorno (la tirannia dell'equazione del razzo): conta la benza (e poi quanta benza serve per la benza)
+- giorno 2: viene introdotto IntCode
+- io: solo nim e bellissimo!
+
+2020
+- ascii art: mappa terra (numeri da su in giù ed in disordine!)
+- storia: dopo aver salvato il natale per 5 anni, vai in vacanza ma devi salvare la vacanza
+- primo giorno (resoconto delle riparazioni): numeri che sommano a 2020
+- unico che ho fatto completo
+- giorno 20: il puzzle con il mostro marino!
+- io: finalmente tutto (e inizio a bloggare con nimib!)
+
+2021
+- ascii art: fondo del mare
+- storia: perse le chiavi in mare, sottomarino e l'antenna per trovare le chiavi va a stelle
+- io:
+  - giorno 3, whale music!
+  - giorno 7: visualizzazione dei granchi con manim
+
+2022
+- ascii art: offuscata ma sembra una mappa
+- storia: devi trovare i frutti stella per le renne (giungla)
+- io, poco ma qualche visualizzazione con p5nim (io giorno 1 e 4, hugo giorno 2)
+- notable: usati gli LLM per arrivare sulla leaderboard
+
+2023
+- ascii art: isole (elementali) nel cielo
+- io: ripreso a farlo (anche) in python (ed un giorno anche in gleam)
+- notable: primo giorno LLM-proof
+
+2024
+- si festeggiano i 10 anni! che succederà?
 
 ## links
 
