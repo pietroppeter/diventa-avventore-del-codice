@@ -17,7 +17,8 @@
   - i puzzle visti dall'alto prima e seconda parte
   - i puzzle un poco più nel dettaglio (difficoltà, varietà, parsing)
   - navigazione del sito
-  - i miei consigli
+  - i miei consigli (no, questi alla fine)
+  - eric! (video youtube behind the scenes 2019, podcast interview 2023)
 - due: storia, curiosità e risorse (10')
   - breve storia (ed Eric Wastl)
   - infrastruttura e fallimenti (behind the scenes)
@@ -39,7 +40,14 @@
 - quattro: diventiamo avventori! (2')
   - creare una leaderboard (chiedere a Salvo! oppure la mia?)
   - come iniziare da zero
+    - facciamo il giorno 1 del 2015 (senza linguaggio di programmazione!)
   - da dove inizio? (proposte di giornate)
+  - consigli pratici
+    - farlo con altri (leggere le soluzioni degli altri)
+    - darsi un obiettivo (imparo linguaggio, scrivo codice mantenibile, solo stdlib, visualizzazioni, ...)
+    - non abbandonare, saltare è ok! anche solo leggere è bello!
+    - curiosare le cose strane
+    - divertirsi
 
 struttura:
 - Advent of Code: cos'è e perché (5')
