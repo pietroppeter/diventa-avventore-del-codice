@@ -7,18 +7,19 @@
 - stile
   - le basi (e.g. titolo) [x]
   - colore giallo stella!
+  - cambio heading 2 in giallo stella (con 2 stelle a fianco)
 - uno: Advent of Code: cos'è e perché (5')
+  - prima bozza [x]
   - calendario dell'avvento (quello vero)
-  - quello del codice, descrizione sintetica
-  - chi lo fa
-    - magari parlo di Norvig qui?
-  - perché farlo
-    - e perché NON farlo
-  - i puzzle visti dall'alto prima e seconda parte
-  - i puzzle un poco più nel dettaglio (difficoltà, varietà, parsing)
-  - navigazione del sito
-  - i miei consigli (no, questi alla fine)
-  - eric! (video youtube behind the scenes 2019, podcast interview 2023)
+  - cosa [x]
+    - mostro uno ad uno
+  - traduco 2015 giorno 1
+    - note di elementi
+  - perché
+  - sito
+    - note di navigazione
+  - easter egg: mio codice leaderboard [x]
+    - baco gen js!
 - due: storia, curiosità e risorse (10')
   - breve storia (ed Eric Wastl)
   - infrastruttura e fallimenti (behind the scenes)
@@ -50,8 +51,8 @@
     - divertirsi
 
 struttura:
-- Advent of Code: cos'è e perché (5')
-- storia, curiosità e risorse (10')
+- Advent of Code: cos'è e perché (5') - essenziale
+- storia, curiosità e risorse (10') - inessenziale (ma il sale della vita)
 - coinvolgimento personale (3')
 - diventiamo avventori! (2')
 
@@ -134,3 +135,10 @@ puntate live con codemotion (SPOILERZ!):
 - prima puntata (con Paolo): https://www.linkedin.com/events/adventofcode-23-1puntata7137364071519006721/theater/
 - seconda puntata (me e Marco): https://www.linkedin.com/events/adventofcode-23-2puntata7138089199672389632/theater/
 - quarta puntata (royal rumble): https://www.linkedin.com/events/adventofcode-23-puntataconclusi7150527433048211456/theater/
+
+## problemi
+
+- un baco? nbCodeFromJs non crea file con estensione nim
+  - c'entra il myInit?
+  - workaround, rinomina manualmente e fai girare di nuovo
+  - todo: crea reprex a apri issue
