@@ -1,23 +1,30 @@
 import nimib except toJson
 import nimislides, nbex
 
-minSlide(calendario):
-  nbText """
-todo: immagine del vero calendario dell'avvento
-"""
+template calendario* =
+  slide(slideOptions(imageBackground="https://upload.wikimedia.org/wikipedia/commons/b/bd/Richard_Ernst_Kepler_-_Im_Lande_des_Christkinds.jpg",
+                     backgroundSize="contain")):
+    discard
+# il calendario che mostra Eric è il primo del 1903 in Germania
+# https://web.archive.org/web/20131204081711/http://www.tourismus.rothenburg.de/blog/
 
 minSlide(cosa):
   nbText """
 ## Cos'è AoC
-
-- 25 rompicapi all'anno per imparare a programmare
-- una, nessuna, centomila comunità
-- un progetto personale (Eric Wastl)
-""" # todo: far apparire uno alla volta
+"""
+  orderedList:
+    listItem:
+      nbText "rompicapi per imparare a programmare"
+    listItem:
+      nbText "una, nessuna, centomila comunità"
+    listItem:
+      nbText "un progetto personale (Eric Wastl)"
   speakerNote """
-- ogni rompicapo in due parti, varietà di temi, adatti a prinicipianti ed esperti
-- c'è una comunità di riferimento su reddit, moltissime comunità pubbliche e private,
-  vale davvero la pena non farlo da soli
+- 25 rompicapi all'anno in due parti
+  - varietà di tecniche di programmazione, adatti a principianti ed esperti
+- c'è una comunità di riferimento su reddit
+  - moltissime comunità pubbliche e private,
+  - vale davvero la pena non farlo da soli
 - un progetto di successo, Eric ci lavora tutto l'anno con amorevole cura e professionlità
   - Il 2024 sarà il 10 anno
   - nel 2023 c'erano più di 1 milione di persone con almeno una stella

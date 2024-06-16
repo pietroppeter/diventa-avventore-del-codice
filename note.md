@@ -10,9 +10,12 @@
   - cambio heading 2 in giallo stella (con 2 stelle a fianco)
 - uno: Advent of Code: cos'è e perché (5')
   - prima bozza [x]
-  - calendario dell'avvento (quello vero)
+  - calendario dell'avvento (quello vero) [x]
+    - add feature nimislides background-size: contain
+      - open the issues about it [x]
+      - do a PR
   - cosa [x]
-    - mostro uno ad uno
+    - mostro uno ad uno [x]
   - traduco 2015 giorno 1
     - note di elementi
   - perché
@@ -21,6 +24,10 @@
   - easter egg: mio codice leaderboard [x]
     - baco gen js!
 - due: storia, curiosità e risorse (10')
+  - bozza:
+    - eric: link a video e podcast, racconto storia
+    - reddit: navigazione community e selezione link
+    - norvig (imparare a programmare in 10 anni)
   - breve storia (ed Eric Wastl)
   - infrastruttura e fallimenti (behind the scenes)
   - gli aspetti sociali ed i gruppi di riferimento
@@ -142,3 +149,4 @@ puntate live con codemotion (SPOILERZ!):
   - c'entra il myInit?
   - workaround, rinomina manualmente e fai girare di nuovo
   - todo: crea reprex a apri issue
+- non posso controllare il background-image-size (voglio contain invece del default cover)
