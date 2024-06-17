@@ -56,7 +56,8 @@
   - chi sono
   - musica delle balene
     - (un dicembre una notte nel catanese)
-  - altre risorse (e.g. intervista pythonista)
+  - regex
+  - altre risorse (e.g. panel pycon e intervista pythonista)
 - quattro: diventiamo avventori! (2')
   - creare una leaderboard (chiedere a Salvo! oppure la mia?)
   - come iniziare da zero
