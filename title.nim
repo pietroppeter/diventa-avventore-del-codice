@@ -1,26 +1,44 @@
+import std / strutils
 import nimib except toJson
 import nimislides, nbex
 
 minSlide(titleSlide):
   nbText """
-## 🎄 Diventa Avventore del Codice 🧑‍💻
+## * Diventa Avventore del Codice *
 
-Elogio di Advent of Code (AoC)
+🎄 Elogio di Advent of Code (<span class="litGreen">AoC</span>) 🧑‍💻
 """
   reference "[github.com/pietroppeter/diventa-avventore-del-codice](https://github.com/pietroppeter/diventa-avventore-del-codice)"
 
-minSlide(agendaSlide):
-  nbText """
-Di che parliamo:
+const
+  one* = "Cos'è AoC e perché farlo"
+  two* = "Storie, curiosità e risorse"
+  three* = "Io e AoC"
+  four* = "Tu e AoC"
 
-1. Cos'è AoC e perché farlo
-2. Storie, curiosità e risorse
-3. Io e AoC
-4. Tu e AoC
-"""
+
+func emphArray*(a: openArray[string], i: int): seq[string] =
+  for j, v in a:
+    if (j + 1) == i:
+      result.add "**" & v & "**"
+    else:
+      result.add v  
+
+template agendaSlide*(i = 0) =
+  slide:
+    nbText """
+1. $1
+2. $2
+3. $3
+4. $4
+""" % [one, two, three, four].emphArray(i)
 
 when isMainModule:
   myInit("title")
   titleSlide
   agendaSlide
+  agendaSlide(1)
+  agendaSlide(2)
+  agendaSlide(3)
+  agendaSlide(4)
   nbSave

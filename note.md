@@ -3,13 +3,14 @@
   - idea dettaglio [x]
 - codice "caldaia" (boilerplate) [x]
 - titolo [x]
+  - cambio stile [x]
 - agenda [x]
-  - aggiungo agenda per ogni sezione
-- index
+  - aggiungo agenda per ogni sezione [x]
+- index [x]
 - stile
   - le basi (e.g. titolo) [x]
-  - colore giallo stella!
-  - cambio heading 2 in giallo stella (con 2 stelle a fianco)
+  - colore giallo stella! [x]
+  - cambio heading 2 in giallo stella (con 2 stelle a fianco) [x]
 - uno: Advent of Code: cos'è e perché (5')
   - prima bozza [x]
   - prima versione decente ok [x]

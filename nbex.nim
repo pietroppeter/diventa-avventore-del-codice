@@ -72,10 +72,9 @@ template myInit*(sourceFileRel = "my.nim") =
   --r-background-color: #0f0f23;
   --r-main-font: "Source Code Pro", monospace;
   --r-heading-font: "Source Code Pro", monospace;
-  /*--r-main-font-size: #{$mainFontSize};*/
   --r-main-color: #cccccc;
-  --r-heading-color: #009900;
-  --r-heading-text-shadow: 0 0 3px #00cc00, 0 0 8px #00cc00;
+  --r-heading-color: #ffff66;
+  --r-heading-text-shadow: 0 0 5px #ffff66;
   --r-link-color: #009900;
   --r-link-color-hover: #99ff99;
   --r-heading2-size: 1em;
@@ -85,16 +84,21 @@ small {
   text-align: left;
 }
 
-em {
+.reveal em {
   color: #ffffff;
   font-style: normal;
   text-shadow: 0 0 5px #ffffff;
 }
 
-strong {
+.reveal strong {
   color: #ffff66;
   font-style: normal;
   text-shadow: 0 0 5px #ffff66;
+}
+
+.litGreen {
+  color: #009900;
+  text-shadow: 0 0 3px #00cc00, 0 0 8px #00cc00;
 }
 
 code {
