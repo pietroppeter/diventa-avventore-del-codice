@@ -77,7 +77,7 @@ template myInit*(sourceFileRel = "my.nim") =
   --r-heading-text-shadow: 0 0 5px #ffff66;
   --r-link-color: #009900;
   --r-link-color-hover: #99ff99;
-  --r-heading2-size: 1em;
+  --r-heading2-size: 1.1em;
 }
 
 small {
