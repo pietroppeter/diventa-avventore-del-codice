@@ -11,7 +11,7 @@ minSlide(titleSlide):
   reference "[github.com/pietroppeter/diventa-avventore-del-codice](https://github.com/pietroppeter/diventa-avventore-del-codice)"
 
 const
-  one* = "Cos'è AoC e perché farlo"
+  one* = "Cos'è AoC"
   two* = "Storie, curiosità e risorse"
   three* = "Io e AoC"
   four* = "Tu e AoC"
