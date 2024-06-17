@@ -6,7 +6,7 @@ minSlide(titleSlide):
   nbText """
 ## * Diventa Avventore del Codice *
 
-🎄 Elogio di Advent of Code (<span class="litGreen">AoC</span>) 🧑‍💻
+🎄 Elogio di _Advent of Code_ (<span class="litGreen">AoC</span>) 🧑‍💻
 """
   reference "[github.com/pietroppeter/diventa-avventore-del-codice](https://github.com/pietroppeter/diventa-avventore-del-codice)"
 
