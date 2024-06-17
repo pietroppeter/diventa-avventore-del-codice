@@ -4,22 +4,33 @@
 - codice "caldaia" (boilerplate) [x]
 - titolo [x]
 - agenda [x]
+  - aggiungo agenda per ogni sezione
+- index
 - stile
   - le basi (e.g. titolo) [x]
   - colore giallo stella!
   - cambio heading 2 in giallo stella (con 2 stelle a fianco)
 - uno: Advent of Code: cos'è e perché (5')
   - prima bozza [x]
+  - prima versione decente ok [x]
   - calendario dell'avvento (quello vero) [x]
     - add feature nimislides background-size: contain
       - open the issues about it [x]
       - do a PR
   - cosa [x]
     - mostro uno ad uno [x]
-  - traduco 2015 giorno 1
-    - note di elementi
+  - traduco 2015 giorno 1 [x]
+    - storia [x]
+    - problema [x]
+    - esempi [x]
+    - input [x]
+      - better background?
+    - app to say yes, or no
+    - headings?
+    - part 2?
   - perché
-  - sito
+    - forse no o forse dopo
+  - sito [x]
     - note di navigazione
   - easter egg: mio codice leaderboard [x]
     - baco gen js!

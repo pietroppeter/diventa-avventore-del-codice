@@ -97,8 +97,49 @@ template myInit*(sourceFileRel = "my.nim") =
   --r-heading2-size: 1em;
 }
 
+small {
+  text-align: left;
+}
+
+em {
+  color: #ffffff;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+strong {
+  color: #ffff66;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffff66;
+}
+
+code {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+code:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  display: block;
+  left: -2px;
+  right: -2px;
+  top: 3px;
+  bottom: 0px;
+  border: 1px solid #333340;
+  background: #10101a;
+}
+
 </style>
 """
+
+template whiteBackground*(body: untyped) =
+  divStyled("background-color: white;"):
+    body
+
 
 template divStyled*(style: string, body: untyped) =
   nbRawHtml "<div style=\"" & style & "\">"
