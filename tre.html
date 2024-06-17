@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/simple.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/highlight/monokai.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+  <div class="reveal">
+    <div class="slides">
+      <style>
+:root {
+  --r-background-color: #0f0f23;
+  --r-main-font: "Source Code Pro", monospace;
+  --r-heading-font: "Source Code Pro", monospace;
+  --r-main-color: #cccccc;
+  --r-heading-color: #ffff66;
+  --r-heading-text-shadow: 0 0 5px #ffff66;
+  --r-link-color: #009900;
+  --r-link-color-hover: #99ff99;
+  --r-heading2-size: 1.1em;
+}
+
+small {
+  text-align: left;
+}
+
+.reveal em {
+  color: #ffffff;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+.reveal strong {
+  color: #ffff66;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffff66;
+}
+
+.litGreen {
+  color: #009900;
+  text-shadow: 0 0 3px #00cc00, 0 0 8px #00cc00;
+}
+
+code {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+code:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  display: block;
+  left: -2px;
+  right: -2px;
+  top: 3px;
+  bottom: 0px;
+  border: 1px solid #333340;
+  background: #10101a;
+}
+
+</style>
+      <section data-nimib-slide-number="1" >
+      <h2>Chi sono 👨‍👩‍👧</h2>
+      <small><ul>
+<li>appassionato di Advent of Code (dal 2018)</li>
+<li>organizzatore Python Milano e PyData Milan (dal 2023)
+<ul>
+<li>conf <a href="https://www.py4ai.com/">Py4AI</a> (Marzo 2024)</li>
+</ul>
+</li>
+<li>Data Scientist (dal 2015, prima in ToolsGroup, ora in ...)</li>
+<li><a href="https://www.recurse.com/">Recurse Center</a> (2023 Winter 1)</li>
+<li><a href="https://github.com/pietroppeter">github.com/pietroppeter</a></li>
+<li>presentazione a PyCon Italy 2024: <a href="https://www.youtube.com/live/fDN2iJri7W0?t=17037s">Nim for Pythonistas</a> (<a href="https://github.com/pietroppeter/nim-for-pythonistas">slides</a>)</li>
+</ul></small>
+      </section>
+      <section data-nimib-slide-number="2" >
+      <h2>Io e AoC</h2>
+      <small><ul>
+<li><a href="https://pietroppeter.github.io/adventofnim/2021/day03.html#whale_music">2021 day 3 - musica delle balene 🐳🎶</a></li>
+<li><a href="https://pietroppeter.github.io/adventofnim/2022/day04.html">2022 day 4 - visualizzazione con p5js</a>
+<ul>
+<li>si può usare <a href="https://p5js.org/">p5js</a> in Python grazie a <a href="https://pyscript.net/">PyScript</a> e <a href="https://github.com/nickmcintyre/proceso">proceso</a>, <a href="https://github.com/pietroppeter/rc23winter1/tree/main/pyscript/proceso_okazz240103a">esempio</a> (<a href="https://pietroppeter.github.io/rc23winter1/pyscript/proceso_okazz240103a/">live</a>)</li>
+</ul>
+</li>
+<li><a href="https://github.com/pietroppeter/adventofcode2023/blob/main/day05/puzzle.txt">2023 day 5 - input come import</a></li>
+</ul></small>
+      </section>
+      <section data-nimib-slide-number="3" >
+      <h2>Io e AoC (Risorse)</h2>
+      <small><ul>
+<li><a href="https://www.youtube.com/live/NIWMisHlHCk?si=SvmbdMZrQ1F1p9TZ&t=20191">Panel AoC a PyCon Italy 2024 - venerdì, tagliatelle</a></li>
+<li><a href="https://www.youtube.com/watch?v=h3qDY4qNU4M&list=PLI39UsD2FrxX8B_g4EEE7r8qaOShsbdAX&index=3&t=3s">Intervista Pythonista ep 47 (Dic 2023)</a></li>
+<li>Live Codemotion - Dicembre 2023 <a href="https://www.linkedin.com/events/adventofcode-23-1puntata7137364071519006721/theater/">1</a>, <a href="https://www.linkedin.com/events/adventofcode-23-2puntata7138089199672389632/theater/">2</a>, <a href="https://www.linkedin.com/events/adventofcode-23-puntataconclusi7150527433048211456/theater/">4</a></li>
+</ul></small>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/highlight/highlight.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [ 
+        RevealHighlight,
+        RevealNotes,
+      ],
+    });
+  </script>
+  </body>
+</html>

@@ -73,7 +73,8 @@ minSlide(celebrità):
 template leaderBoardTimes* =
   slide(slideOptions(iframeBackground="https://www.maurits.vdschee.nl/scatterplot/")):
     discard
-
+  slide:
+    nbText "[www.maurits.vdschee.nl/scatterplot/](https://www.maurits.vdschee.nl/scatterplot/)"
 
 template all* =
   storia

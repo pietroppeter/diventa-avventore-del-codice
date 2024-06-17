@@ -37,27 +37,23 @@
     - baco gen js!
 - due: storia, curiosità e risorse (10')
   - bozza:
-    - eric: link a video e podcast, racconto storia
-    - reddit: navigazione community e selezione link
-    - norvig (imparare a programmare in 10 anni)
-  - breve storia (ed Eric Wastl)
-  - infrastruttura e fallimenti (behind the scenes)
-  - gli aspetti sociali ed i gruppi di riferimento
-    - leaderboard
-    - peter norvig!
-  - visualizzazioni
-  - upping the ante
-  - giornate epiche (intcode)
+    - eric
+      - breve storia [x]
+      - link a video e podcast [x]
+    - favorites?
+    - reddit
+      - link a community (esterno) [x]
+      - selezione top viz, upping, ...
+    - norvig (imparare a programmare in 10 anni) [x]
   - risorse
     - chrome extension: https://chromewebstore.google.com/detail/advent-of-code-charts/ipbomkmbokofodhhjpipflmdplipblbe
-    - visualizzazione della difficoltà
 - tre: coinvolgimento personale (3')
   - ricerca google
   - chi sono
   - musica delle balene
     - (un dicembre una notte nel catanese)
-  - regex
-  - altre risorse (e.g. panel pycon e intervista pythonista)
+  - regex import module
+  - altre risorse (e.g. panel pycon e intervista pythonista, + live codemotion)
 - quattro: diventiamo avventori! (2')
   - creare una leaderboard (chiedere a Salvo! oppure la mia?)
   - come iniziare da zero

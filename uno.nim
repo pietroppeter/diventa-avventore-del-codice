@@ -86,11 +86,15 @@ template primaStellaInput* =
   slide(slideOptions(iframeBackground="year2015day1input.txt")):
     discard
 
+minSlide(traduzioneConChatGpt):
+  nbText "[tradotto con ChatGPT](https://chatgpt.com/share/8e8adf36-b9e3-4907-a243-12d1363f7f7f)"
+
 template primaStella* =
   primaStella1
   primaStella2
   primaStella3
   primaStellaInput
+  traduzioneConChatGpt
 
 minSlide(perché):
   nbText """
@@ -100,6 +104,8 @@ todo: perché
 template sito* =
   slide(slideOptions(iframeBackground="https://adventofcode.com/2015")):
     discard
+  slide:
+    nbText "[adventofcode.com](https://adventofcode.com)"
 
 template myLeaderboardEasterEgg* =
   nbCodeToJs:
