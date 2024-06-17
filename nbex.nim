@@ -51,22 +51,6 @@ template minSlide*(ident: untyped, body: untyped) =
     slide:
       body
 
-template slideIframe*(url: string) =
-  nbRawHtml: "<section data-background-iframe=\"" & url & "\" data-background-interactive></section>"
-
-template slideIframeFromNblog*(filename: string) =
-  slideIframe("https://nimib-land.github.io/nblog/drafts/" & filename & ".html")
-
-template slideIframe*(ident: untyped, frameAsStr: untyped) =
-  template ident* =
-    slide(slideOptions(iframeBackground=frameAsStr)):
-      discard
-
-template slideIframe*(ident: untyped, frameAsStr: untyped, body: untyped) =
-  template ident* =
-    slide(slideOptions(iframeBackground=frameAsStr)):
-      body
-
 template spanColor*(col: string, text: string) =
   nbRawHtml("<span style=\"color:" & col & ";\">" & text & "</span>")
 
