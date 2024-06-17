@@ -1,6 +1,6 @@
 import nimib except toJson
 import nimislides, nbex
-import title, uno
+import title, uno, due
 
 when isMainModule:
   myInit("index")
@@ -9,4 +9,7 @@ when isMainModule:
   slide:
     agendaSlide(1)
     uno.all
+  slide:
+    agendaSlide(2)
+    due.all
   nbSave
