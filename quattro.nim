@@ -1,19 +1,22 @@
 import nimib except toJson
 import nimislides, nbex
 
-minSlide(exampleContent):
+minSlide(consigli):
+  nbText "## Consigli"
   nbText """
-todo
+- farlo con altri
+- darsi un obiettivo
+- non arrendersi alle prime difficoltà
+- cercare/chiedere aiuto
+- divertirsi!
 """
 
-template exampleFrame* =
-  slide(slideOptions(iframeBackground="https://adventofcode.com/2015")):
-    discard
-
+minSlide(provaTu):
+  nbText "## Ora prova tu!"
 
 template all* =
-  exampleContent
-  exampleFrame
+  consigli
+  provaTu
 
 when isMainModule:
   myInit("quattro")

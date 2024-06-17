@@ -73,6 +73,8 @@ Ad esempio:
 - `)))` e `)())())` portano entrambi al piano -3.
 
 A _quale piano_ portano le istruzioni Babbo Natale?
+
+Ottieni [l'input del tuo enigma](year2015day1input.txt)
 """
 
 minSlide(primaStellaInputOld):
@@ -86,14 +88,18 @@ template primaStellaInput* =
   slide(slideOptions(iframeBackground="year2015day1input.txt")):
     discard
 
+template inputLink* =
+  slide:
+    nbText "[year2015day1input.txt](year2015day1input.txt)"
+
 minSlide(traduzioneConChatGpt):
-  nbText "[tradotto con ChatGPT](https://chatgpt.com/share/8e8adf36-b9e3-4907-a243-12d1363f7f7f)"
+  nbTextSmall "(testo del giorno 1 del 2015 [tradotto con ChatGPT](https://chatgpt.com/share/8e8adf36-b9e3-4907-a243-12d1363f7f7f))"
 
 template primaStella* =
   primaStella1
   primaStella2
   primaStella3
-  primaStellaInput
+  #primaStellaInput
   traduzioneConChatGpt
 
 minSlide(perché):
@@ -122,5 +128,4 @@ template all* =
 when isMainModule:
   myInit("uno")
   all
-  #primaStella
   nbSave
